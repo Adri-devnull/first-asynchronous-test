@@ -23,5 +23,52 @@ a {
 
 body {
   margin: 0;
-  /* background-image: url(../assets/images/sleep-cat.jpeg); */
+  font-family: sans-serif;
+}
+
+.main {
+  align-items: center;
+  background-color: #181c26;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  background-color: #303a4a;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 2px #0d121c;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: space-evenly;
+  padding: 30px 50px;
+  position: relative;
+  text-align: center;
+  width: 400px;
+}
+
+.container__h2 {
+  color: #fff;
+}
+
+.container__pattern {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.container__span {
+  color: #49e8a7;
+}
+
+.container__button {
+  background-color: #49e8a7;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  top: 255px;
 }
