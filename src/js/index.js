@@ -11,7 +11,7 @@ const fetchData = async () => {
         const response = await request('https://api.adviceslip.com/advice');
         if (response.status === 200) {
             const data = await response.json();
-            spanElement.textContent = `Advice #${data.slip.id}`;
+            spanElement.textContent = `ADVICE #${data.slip.id}`;
             h2Element.textContent = `"${data.slip.advice}"`;
         }
     } catch (err) {
